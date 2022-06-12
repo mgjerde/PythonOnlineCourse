@@ -1,0 +1,28 @@
+[
+    {
+        "type": "Fishing",
+        "model": "Yamaha 5000",
+        "color": "Blue and White",
+        "engines": [
+            "Mariner 50",
+            "Mariner 50"
+        ],
+        "topspeed": 80
+    },
+    {
+        "type": "Dingey",
+        "model": "Supersport Blueline X3",
+        "color": "Yellow",
+        "engines": [],
+        "topspeed": 5
+    },
+    {
+        "type": "Speedboat",
+        "model": "Essential BBB",
+        "color": "Red and White",
+        "engines": [
+            "Pegasus 5000"
+        ],
+        "topspeed": 100
+    }
+]

@@ -1,0 +1,10 @@
+EM984 : Cape Town to Oslo
+EM854 : Tokyo to Cape Town
+TH874 : Cape Town to Dubai
+TH789 : Paris to Dubai
+EM789 : Dubai to Oslo
+RR984 : Seattle to Dubai
+RR215 : Tokyo to Cape Town
+BA110 : Tokyo to Oslo
+EM854 : Cape Town to Paris
+TH874 : Cape Town to Dubai
