@@ -18,7 +18,7 @@ class Family:
        
     def createfigure(self,foldername:str):
         '''
-        Function that creates a graph and saves it to a file in the given folder.
+        Function that calculates the total cost of the shopping trips and creates a graph showing these, and saves it to a file in the given folder.
 
         Parameters
         ----------
@@ -29,7 +29,8 @@ class Family:
         dfsum = df["Price"].groupby(df["Shop"]).sum()
         fig = plt.figure()
         ax1 = fig.add_subplot(1,1,1)
-        ax1.set_xlabel("Price",size=14)
+        ax1.set_xlabel("Total cost",size=14)
+        ax1.set_title(f"Shoppingtrip for {self.__name}")
         plots = dfsum.plot.barh(ax=ax1, color=["green" if x==dfsum.min() else "red" if x==dfsum.max() else "orange" for x in dfsum ], xlim=(dfsum.min()*0.99,dfsum.max()*1.01), align="center")
         ax1.bar_label(plots.containers[0],size=10)
         if not os.path.isdir(foldername):
